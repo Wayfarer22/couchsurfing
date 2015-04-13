@@ -1,0 +1,31 @@
+#grid {
+    width: 900px;
+    margin: 5px auto;
+    height: 100%;
+    text-align: center;
+}
+
+#grid img {
+    width: 60%;
+    height: 60%;
+    border: 5px solid #29120c;
+}
+
+#grid p {
+    font-size: 20px;
+}
+
+#grid a {
+    color: #29120c;
+}
+
+#grid a:hover, a:active {
+    color: #a9a9a9;
+}
+
+a img {
+    border: none;
+}
+
+
+

@@ -1,0 +1,38 @@
+#grid {
+    width: 900px;
+    margin: 5px auto;
+    height: 100%;
+}
+
+#grid #left {
+    width: 480px;
+    float: left;
+}
+
+#grid #left p {
+    margin: 0 0 10px 0;
+}
+
+#grid #right {
+    width: 400px;
+    float: right;
+}
+
+#grid img {
+    width: 400px;
+    height: 300px;
+    border: 5px solid #29120c;
+}
+
+#grid a {
+    color: #29120c;
+}
+
+#grid a:hover, a:active {
+    color: #a9a9a9;
+}
+
+
+#grid .clear {
+    clear: both;
+}

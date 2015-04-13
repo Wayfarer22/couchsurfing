@@ -1,0 +1,78 @@
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    -text-rendering: optimizelegibility;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    color: #29120c;;
+}
+
+#background {
+    background-color: #efdeb2;
+    height: 50px;
+}
+
+#background #pic {
+    background: url("../images/couch_surfing.jpg") center center no-repeat;
+    border: 5px solid #29120c;
+    border-radius: 65px;
+    height: 0;
+    width: 640px;
+    margin: 0 auto;
+    visibility: hidden;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 300;
+    margin: 7px  0;
+}
+
+a {
+    border: none;
+}
+
+#content {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #efdeb2;
+    min-height: 500px;
+    border-radius: 20px;
+    border: 1px solid #29120c;
+}
+
+#content #menu {
+    text-align: center;
+    margin: 20px 0;
+    visibility: hidden;
+}
+
+#content #menu a {
+    margin: 0 5px;
+    color: #29120c;;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+#content #menu a:hover {
+    color: #a9a9a9;
+}
+
+#content #menu .active {
+    text-decoration: underline;
+}
+
+#foot {
+    height: 30px;
+    background-color: #efdeb2;
+    border-radius: 180px;
+    text-align: center;
+    font-weight: 300;
+    border: 1px solid #29120c;
+}
+
+#foot span {
+    height: 30px;
+    line-height: 30px;
+}

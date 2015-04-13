@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+		<meta charset="UTF-8">
+		<meta name="Author" content="David Kubáč">
+		<meta name="keywords" content="David Kubáč,Školní webovky,Školní práce,Couchsurfing,Levný způsob cestování">
+        <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="{$basePath}/css/main.css">
+		<link rel="stylesheet" type="text/css" href="{$basePath}/css/main_print.css"  media="print">
+        <link href="{$basePath}/css/lightbox.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        {block head}{/block}
+		<link rel="shortcut icon" href="{$basePath}/images/favicon.ico">
+		<title>Couchsurfing{include #titulek}</title>
+
+<body>
+
+    {block header}
+        <div id="background">
+            <a n:href="Homepage:">
+                <div id="pic"></div>
+            </a>
+                <h1>{include #headline}</h1>
+        </div>
+        <div id="content">
+            <div id="menu">
+                <a {ifCurrent Homepage:*}class="active"{/ifCurrent} n:href="Homepage:">Základní informace</a>
+                <a {ifCurrent Surf:*}class="active"{/ifCurrent} n:href="Surf:">Surfování</a>
+                <a {ifCurrent Host:*}class="active"{/ifCurrent} n:href="Host:">Hostování</a>
+                <a {ifCurrent Gallery:*}class="active"{/ifCurrent} n:href="Gallery:">Fotogalerie</a>
+                <a {ifCurrent Details:*}class="active"{/ifCurrent} n:href="Details:">Více informací</a>
+            </div>
+
+    {/block}
+
+	{include #content}
+
+	{block footer}
+	    </div>
+	    <div id="foot">
+	    <span>Tuto webovou stránku vytvořil David Kubáč, © 2014 <strong>David Kubáč</strong></span>
+	    </div>
+	{/block}
+
+	{block scripts}
+	<script src="{$basePath}/js/jquery.js"></script>
+	<script src="{$basePath}/js/netteForms.js"></script>
+	<script src="{$basePath}/js/main.js"></script>
+    <script src="{$basePath}/js/jquery-1.10.2.min.js"></script>
+    <script src="{$basePath}/js/lightbox-2.6.min.js"></script>
+	{/block}
+</body>
+</html>
